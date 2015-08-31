@@ -6,6 +6,15 @@
  * Made By MaterializeCSS.com
  */
 
+.z-depth-1 {
+transition: box-shadow 0.5s;
+-moz-transition: box-shadow 0.5s;
+}
+
+.z-depth-0 {
+transition: box-shadow 0.5s;
+-moz-transition: box-shadow 0.5s;
+}
 .icon-block {
   padding: 0 15px;
 }
