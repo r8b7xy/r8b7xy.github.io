@@ -5,7 +5,14 @@
  *
  * Made By MaterializeCSS.com
  */
-
+.box-image {
+    height: 500px
+}
+.picture1 {
+    background: url("../images/chir.jpg");
+    background-size: cover;
+    background-position: center;
+}
 .margin-card {
     margin: -150px auto 0 auto;
 }
