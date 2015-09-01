@@ -6967,7 +6967,7 @@ select {
   height: -moz-calc(100%);
   padding-bottom: 60px;
   background-color: #fff;
-  z-index: 1000;
+  z-index: 999;
   overflow-y: auto;
   will-change: left; }
   .side-nav.right-aligned {
@@ -7027,7 +7027,7 @@ select {
   right: 0;
   height: 120vh;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 998;
+  z-index: 997;
   will-change: opacity; }
 
 /*
