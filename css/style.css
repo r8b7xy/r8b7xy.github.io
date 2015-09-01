@@ -6,6 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
+.margin-card {
+    margin: -150px auto 0 auto;
+}
 .z-depth-1 {
 transition: box-shadow 0.5s;
 -moz-transition: box-shadow 0.5s;
