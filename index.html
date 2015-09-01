@@ -16,24 +16,26 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script>
-    (function(){
-      $(window).scroll(function() {
-        if($(this).scrollTop() > 10) {
-          $('nav').addClass('z-depth-1');
-          $('nav').removeClass('z-depth-0');
-        } else {
-          $('nav').addClass('z-depth-0');
-          $('nav').removeClass('z-depth-1');
-        }
-      });
-    })();
-  </script>
+  <!--
+     - <script>
+     -   (function(){
+     -     $(window).scroll(function() {
+     -       if($(this).scrollTop() > 10) {
+     -         $('nav').addClass('z-depth-1');
+     -         $('nav').removeClass('z-depth-0');
+     -       } else {
+     -         $('nav').addClass('z-depth-0');
+     -         $('nav').removeClass('z-depth-1');
+     -       }
+     -     });
+     -   })();
+     - </script>
+     -->
 
 </head>
 <body>
   <div class="navbar-fixed">
-    <nav class="white z-depth-0" role="navigation">
+    <nav class="white" role="navigation">
       <div class="nav-wrapper container"><a id="logo-container" href="#" class="light-blue-text brand-logo">Logo</a>
         <ul class="right hide-on-med-and-down">
           <li><a class="light-blue-text" href="#">Navbar Link</a></li>
@@ -51,6 +53,10 @@
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="light-blue-text material-icons">menu</i></a>
       </div>
     </nav>
+  </div>
+
+  <div id="index-banner" class="">
+    <div class=""><img src="images/chir.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
   <div class="section no-pad-bot" id="index-banner">
