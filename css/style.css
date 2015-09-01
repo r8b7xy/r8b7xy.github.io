@@ -5,16 +5,21 @@
  *
  * Made By MaterializeCSS.com
  */
-.box-image {
-    height: 500px
-}
 .picture1 {
+    height: 450px;
     background: url("../images/chir.jpg");
     background-size: cover;
     background-position: center;
 }
 .margin-card {
     margin: -150px auto 0 auto;
+    -webkit-transition: margin 0.5s;
+    -moz-transition: margin 0.5s;
+    -o-transition: margin 0.5s;
+    transition: margin 0.5s;
+}
+.margin-card-scroll {
+    margin: -120px auto 0 auto;
 }
 .z-depth-1 {
 transition: box-shadow 0.5s;
