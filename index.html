@@ -16,17 +16,19 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script>
-    (function(){
-      $(window).scroll(function() {
-        if($(this).scrollTop() > 30) {
-          $('.margin-card').addClass('margin-card-scroll');
-        } else {
-          $('.margin-card').removeClass('margin-card-scroll');
-        }
-      });
-    })();
-  </script>
+  <!--
+     - <script>
+     -   (function(){
+     -     $(window).scroll(function() {
+     -       if($(this).scrollTop() > 10) {
+     -         $('.margin-card').addClass('margin-card-scroll');
+     -       } else {
+     -         $('.margin-card').removeClass('margin-card-scroll');
+     -       }
+     -     });
+     -   })();
+     - </script>
+     -->
 
 </head>
 <body>
@@ -39,8 +41,6 @@
           <li><a class="light-blue-text" href="#">Navbar Link</a></li>
           <li><a class="light-blue-text" href="#">Navbar Link</a></li>
         </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="light-blue-text material-icons">menu</i></a>
-  </div>
 
         <ul id="nav-mobile" class="side-nav">
           <li><a class="light-blue-text" href="#">Navbar Link</a></li>
@@ -48,8 +48,10 @@
           <li><a class="light-blue-text" href="#">Navbar Link</a></li>
           <li><a class="light-blue-text" href="#">Navbar Link</a></li>
         </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="light-blue-text material-icons">menu</i></a>
       </div>
     </nav>
+  </div>
 
   <div class="picture1"></div>
 
@@ -66,11 +68,12 @@
    -     </div>
    -   </div>
    -->
+  <!-- <div class="spacer indigo"></div> -->
 
   <div class="container margin-card">
         <div class="card white">
           <div class="card-content grey-text">
-            <span class="card-title light-blue-text">Hubert Bogacki</span>
+            <span class="card-title light-blue-text">Lorem ipsum dolor</span>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
           </div>
         </div>
@@ -82,7 +85,7 @@
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
-          <div class="card icon-block">
+          <div class="icon-block">
             <h2 class="center light-blue-text"><i class="material-icons">info_outline</i></h2>
             <h5 class="center">Lorem</h5>
 
