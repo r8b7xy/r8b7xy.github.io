@@ -24,4 +24,20 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+@media only screen and (max-width : 992px) {
+    .picture1 {
+        height: 300px;
+    }
+    .margin-card {
+        margin: -75px auto 0 auto;
+    }
+}
+@media only screen and (max-width : 992px) {
+    .picture1 {
+        height: 200px;
+    }
+    .margin-card {
+        margin: -50px auto 0 auto;
+    }
+}
 /* vim: set et sw=4 ts=4 sts=4 fdm=marker ff=unix fenc=utf8: */
