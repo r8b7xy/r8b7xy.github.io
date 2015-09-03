@@ -43,9 +43,11 @@
     }
 }
 @media only screen and (max-width : 600px) {
-    .picture1 {
-        height: 200px;
-    }
+    /*
+     * .picture1 {
+     *     height: 200px;
+     * }
+     */
     .map {
         height: 200px;
     }
