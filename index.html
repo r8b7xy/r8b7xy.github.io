@@ -19,7 +19,7 @@
       <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
       <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
       <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
-      <li><a class="waves-effect light-blue-text" href="#">Mapa</a></li>
+      <li><a class="waves-effect light-blue-text" href="#mapa">Mapa</a></li>
     </ul>
 
     <div class="navbar-fixed">
@@ -29,7 +29,7 @@
             <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
             <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
             <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
-            <li><a class="waves-effect light-blue-text" href="#">Mapa</a></li>
+            <li><a class="waves-effect light-blue-text" href="#mapa">Mapa</a></li>
           </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="light-blue-text material-icons">menu</i></a>
         </div>
@@ -88,43 +88,77 @@
     </div>
     <br><br>
 
-    <!-- Input field -->
-    <div class="container">
-      <div class="row">
-
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <i class="material-icons prefix">account_circle</i>
-              <input id="icon_prefix" type="text" class="validate">
-              <label for="icon_prefix">Imię i nazwisko</label>
+<!--
+   -     [> Input field <]
+   -     <div class="container">
+   -       <div class="row">
+   - 
+   -         <form class="col s12">
+   -           <div class="row">
+   -             <div class="input-field col s12 m6">
+   -               <i class="material-icons prefix">mail</i>
+   -               <input id="email" type="email" class="validate">
+   -               <label for="email">Email</label>
+   -             </div>
+   -           </div>
+   -         </form>
+   - 
+   -         <form class="col s12">
+   -           <div class="row">
+   -             <div class="input-field col s12">
+   -               <i class="material-icons prefix">mode_edit</i>
+   -               <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+   -               <label for="icon_prefix2">Wiadomość</label>
+   -             </div>
+   -           </div>
+   -         </form>
+   - 
+   -         <button class="right btn waves-effect waves-light" type="submit" name="action">
+   -           Wyślij
+   -           <i class="material-icons right">send</i>
+   -         </button>
+   - 
+   -       </div>
+   -     </div>
+   -     <br><br>
+   -->
+  <div class="container contact">
+    <h5>Kontakt</h5>
+    <h6>zapraszam do konsultacji</h6>
+    <hr>
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Imię i nazwisko</label>
+              </div>
             </div>
-            <div class="input-field col s12 m6">
-              <i class="material-icons prefix">mail</i>
-              <input id="email" type="email" class="validate">
-              <label for="email">Email</label>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">email</label>
+              </div>
             </div>
-          </div>
-        </form>
-
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s12">
-              <i class="material-icons prefix">mode_edit</i>
-              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-              <label for="icon_prefix2">Wiadomość</label>
-            </div>
-          </div>
-        </form>
-
-        <button class="right btn waves-effect waves-light" type="submit" name="action">
-          Wyślij
-          <i class="material-icons right">send</i>
-        </button>
-
+            <textarea class="materialize-textarea" placeholder="wiadomość" required></textarea>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+              <i class="mdi-content-send right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="col s12 m6 l6 contact-holder">
+        <h6 class="mdi-action-home">Adres</h6>
+        <p>Szczecińska 80, Szczecin</p>
+        <h6 class="mdi-hardware-phone-android">Phone Number</h6>
+        <p>555-555-555</p>
       </div>
     </div>
-    <br><br>
+  </div>
+
   </main>
 
   <footer class="grey darken-3 page-footer">
