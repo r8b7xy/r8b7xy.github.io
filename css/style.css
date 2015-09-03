@@ -35,12 +35,18 @@
     .picture1 {
         height: 300px;
     }
+    .map {
+        height: 300px;
+    }
     .margin-card {
         margin: -75px auto 0 auto;
     }
 }
 @media only screen and (max-width : 600px) {
     .picture1 {
+        height: 200px;
+    }
+    .map {
         height: 200px;
     }
     .margin-card {
