@@ -13,6 +13,13 @@
 	padding-left: 40px;
 	text-align: left;
 }
+.contact .contact-holder h6 {
+	margin-bottom: 15px;
+	text-align: left;
+}
+.contact .contact-holder p {
+	margin-bottom: 30px;
+}
 .spacer {
     height: 200px;
 }
