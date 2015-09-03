@@ -43,14 +43,14 @@
     }
 }
 @media only screen and (max-width : 600px) {
+    .picture1 {
+        height: 200px;
+    }
     /*
-     * .picture1 {
+     * .map {
      *     height: 200px;
      * }
      */
-    .map {
-        height: 200px;
-    }
     .margin-card {
         margin: -50px auto 0 auto;
     }
