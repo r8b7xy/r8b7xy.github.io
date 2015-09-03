@@ -92,7 +92,7 @@
    -     [> Input field <]
    -     <div class="container">
    -       <div class="row">
-   - 
+   -
    -         <form class="col s12">
    -           <div class="row">
    -             <div class="input-field col s12 m6">
@@ -102,7 +102,7 @@
    -             </div>
    -           </div>
    -         </form>
-   - 
+   -
    -         <form class="col s12">
    -           <div class="row">
    -             <div class="input-field col s12">
@@ -112,48 +112,61 @@
    -             </div>
    -           </div>
    -         </form>
-   - 
+   -
    -         <button class="right btn waves-effect waves-light" type="submit" name="action">
    -           Wyślij
    -           <i class="material-icons right">send</i>
    -         </button>
-   - 
+   -
    -       </div>
    -     </div>
    -     <br><br>
    -->
   <div class="container contact">
-    <h5>Kontakt</h5>
-    <h6>zapraszam do konsultacji</h6>
+    <h5 class="center">Kontakt</h5>
     <hr>
+    <br><br>
     <div class="row">
       <div class="col s12 m6 l6">
         <div class="row">
           <form class="col s12">
+
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
-                <input id="icon_prefix" type="text" class="validate">
-                <label for="icon_prefix">Imię i nazwisko</label>
+                <input id="name" type="text" class="validate">
+                <label for="name">Imię i nazwisko</label>
               </div>
             </div>
+
             <div class="row">
               <div class="input-field col s12">
+                <i class="material-icons prefix">mail</i>
                 <input id="email" type="email" class="validate">
-                <label for="email">email</label>
+                <label for="email">E-mail</label>
               </div>
             </div>
-            <textarea class="materialize-textarea" placeholder="wiadomość" required></textarea>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-              <i class="mdi-content-send right"></i>
+
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="message" class="materialize-textarea"></textarea>
+                <label for="message">Wiadomość</label>
+              </div>
+            </div>
+
+            <button class="right btn waves-effect waves-light" type="submit" name="action">
+              Wyślij
+              <i class="material-icons right">send</i>
             </button>
+
           </form>
         </div>
       </div>
       <div class="col s12 m6 l6 contact-holder">
-        <h6 class="mdi-action-home">Adres</h6>
-        <p>Szczecińska 80, Szczecin</p>
-        <h6 class="mdi-hardware-phone-android">Phone Number</h6>
+        <i class="material-icons prefix">location_on</i>
+        <p>Szczecińska 80 <br>Szczecin</p>
+        <i class="material-icons prefix teal-text">phone</i>
         <p>555-555-555</p>
       </div>
     </div>
@@ -161,23 +174,10 @@
 
   </main>
 
-  <footer class="grey darken-3 page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Address</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </div>
-      </div>
-    </div>
-    <br><br>
+  <footer>
+    <div class="map" id="mapa"></div>
   </footer>
 
-  <div class="map" id="mapa"></div>
 
 
   <!--  Scripts-->
