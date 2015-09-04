@@ -16,55 +16,55 @@
 <body>
   <header>
 
-  <nav>
-    <div class="nav-wrapper">
-      <div class="col s12">
-        <a href="/" class="brand-logo"><img src="/images/logo.svg" alt=""></a>
-         <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-        <div class="right-nav hide-on-med-and-down">
-          <a href="https://editor.stamplay.com/register?utm_source=stamplay&amp;utm_content=navbar_signup&amp;utm_medium=website" class="waves-effect waves-stamplay btn-flat" id="signup-navbar">sign up</a>
-          <a href="https://editor.stamplay.com/login?utm_source=stamplay&amp;utm_content=navbar_login&amp;utm_medium=website" class="waves-effect waves-light btn">login</a>
+  <!--
+     - <nav>
+     -   <div class="nav-wrapper">
+     -     <div class="col s12">
+     -       <a href="/" class="brand-logo"><img src="/images/logo.svg" alt=""></a>
+     -        <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+     -       <div class="right-nav hide-on-med-and-down">
+     -         <a href="https://editor.stamplay.com/register?utm_source=stamplay&amp;utm_content=navbar_signup&amp;utm_medium=website" class="waves-effect waves-stamplay btn-flat" id="signup-navbar">sign up</a>
+     -         <a href="https://editor.stamplay.com/login?utm_source=stamplay&amp;utm_content=navbar_login&amp;utm_medium=website" class="waves-effect waves-light btn">login</a>
+     -       </div>
+     -       <ul class="right hide-on-med-and-down">
+     -         <li><a href="/docs/main">Docs</a></li>
+     -         <li><a href="/pricing">Pricing</a></li>
+     -         <li><a href="/about">About</a></li>
+     -         <li><a href="https://stamplay.growsumo.com" target="_blank">Partner with us</a></li>
+     -       </ul>
+     -       <ul class="side-nav" id="mobile-nav">
+     -         <li><a href="/docs/main">Docs</a></li>
+     -         <li><a href="/pricing">Pricing</a></li>
+     -         <li><a href="/about">About</a></li>
+     -         <a href="https://editor.stamplay.com/register?utm_source=stamplay&amp;utm_content=navbar_signup&amp;utm_medium=website" class="waves-effect waves-stamplay btn-flat" id="signup-mobile-navbar">sign up</a>
+     -         <a href="https://editor.stamplay.com/login?utm_source=stamplay&amp;utm_content=navbar_login&amp;utm_medium=website" class="waves-effect waves-light btn white-text">login</a>
+     -       </ul>
+     -     </div>
+     -   </div>
+     - </nav>
+     -->
+    <ul id="nav-mobile" class="side-nav fixed" style="overflow: auto; left: 0px;">
+      <li><a id="logo-container" href="#" class="light-blue-text brand-logo">Logo</a></li>
+      <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
+      <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
+      <li><a class="waves-effect light-blue-text" href="#nav_contact">Kontakt</a></li>
+      <li><a class="waves-effect light-blue-text" href="#nav_map">Mapa</a></li>
+    </ul>
+
+    <div class="navbar-fixed">
+      <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="light-blue-text brand-logo">Logo</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
+            <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
+            <li><a class="waves-effect light-blue-text" href="#nav_contact">Kontakt</a></li>
+            <li><a class="waves-effect light-blue-text" href="#nav_map">Mapa</a></li>
+          </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="light-blue-text material-icons">menu</i></a>
         </div>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="/docs/main">Docs</a></li>
-          <li><a href="/pricing">Pricing</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="https://stamplay.growsumo.com" target="_blank">Partner with us</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-nav">
-          <li><a href="/docs/main">Docs</a></li>
-          <li><a href="/pricing">Pricing</a></li>
-          <li><a href="/about">About</a></li>
-          <a href="https://editor.stamplay.com/register?utm_source=stamplay&amp;utm_content=navbar_signup&amp;utm_medium=website" class="waves-effect waves-stamplay btn-flat" id="signup-mobile-navbar">sign up</a>
-          <a href="https://editor.stamplay.com/login?utm_source=stamplay&amp;utm_content=navbar_login&amp;utm_medium=website" class="waves-effect waves-light btn white-text">login</a>
-        </ul>
-      </div>
+      </nav>
     </div>
-  </nav>
-<!--
-   -     <ul id="nav-mobile" class="side-nav fixed" style="overflow: auto; left: 0px;">
-   -       <li><a id="logo-container" href="#" class="light-blue-text brand-logo">Logo</a></li>
-   -       <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
-   -       <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
-   -       <li><a class="waves-effect light-blue-text" href="#nav_contact">Kontakt</a></li>
-   -       <li><a class="waves-effect light-blue-text" href="#nav_map">Mapa</a></li>
-   -     </ul>
-   - 
-   -     <div class="navbar-fixed">
-   -       <nav class="white" role="navigation">
-   -         <div class="nav-wrapper container">
-   -           <a id="logo-container" href="#" class="light-blue-text brand-logo">Logo</a>
-   -           <ul class="right hide-on-med-and-down">
-   -             <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
-   -             <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
-   -             <li><a class="waves-effect light-blue-text" href="#nav_contact">Kontakt</a></li>
-   -             <li><a class="waves-effect light-blue-text" href="#nav_map">Mapa</a></li>
-   -           </ul>
-   -         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="light-blue-text material-icons">menu</i></a>
-   -         </div>
-   -       </nav>
-   -     </div>
-   -->
   </header>
 
   <main>
