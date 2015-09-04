@@ -1,11 +1,9 @@
 (function($){
     $(function(){
 
-        /*
-         * $('header').bind('click', 'ul li a', function(event) {
-         *     $.scrollTo(event.target.hash, 250);
-         * });
-         */
+        $('header').bind('click', 'ul li a', function(event) {
+            $.scrollTo(event.target.hash, 250);
+        });
 
         // Plugin initialization
         $('.slider').slider({full_width: true});
