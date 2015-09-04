@@ -5,84 +5,10 @@
  *
  * Made By MaterializeCSS.com
  */
-.contact h5 {
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 15px;
-}
 
-.contact h6 {
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 45px;
-}
-
-.contact hr {
-	width: 40px;
-	margin-bottom: 45px;
-}
-
-.contact .contact-holder {
-	padding-left: 40px;
-	text-align: left;
-}
-
-.contact .contact-holder h6 {
-	margin-bottom: 15px;
-	text-align: left;
-}
-
-.contact .contact-holder p {
-	margin-bottom: 30px;
-}
-.spacer {
-    height: 200px;
-}
-.picture1 {
-    height: 400px;
-    background: url("../images/chir.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.map {
-    height: 400px;
-    background: url("../images/street_mark.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.margin-card {
-    margin: -100px auto 0 auto;
-}
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
 }
-@media only screen and (max-width : 992px) {
-    .picture1 {
-        height: 300px;
-    }
-    .map {
-        height: 300px;
-    }
-    .margin-card {
-        margin: -75px auto 0 auto;
-    }
-}
-@media only screen and (max-width : 600px) {
-    .picture1 {
-        height: 200px;
-    }
-    /*
-     * .map {
-     *     height: 200px;
-     * }
-     */
-    .margin-card {
-        margin: -50px auto 0 auto;
-    }
-}
-/* vim: set et sw=4 ts=4 sts=4 fdm=marker ff=unix fenc=utf8: */

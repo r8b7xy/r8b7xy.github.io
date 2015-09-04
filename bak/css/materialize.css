@@ -6978,7 +6978,7 @@ select {
     margin: 0; }
   .side-nav li {
     float: none;
-    padding: 0 15px; }
+    padding: 0; }
     .side-nav li:hover, .side-nav li.active {
       background-color: #ddd; }
   .side-nav a {
@@ -7027,7 +7027,7 @@ select {
   right: 0;
   height: 120vh;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 997;
+  z-index: 998;
   will-change: opacity; }
 
 /*
