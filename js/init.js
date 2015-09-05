@@ -7,4 +7,10 @@
   );
 
   }); // end of document ready
+
+  var options = [
+    {selector: '#nav_contact', offset: 500, callback: 'Materialize.fadeInImage("#nav_contact")' },
+  ];
+  Materialize.scrollFire(options);
+
 })(jQuery); // end of jQuery name space
