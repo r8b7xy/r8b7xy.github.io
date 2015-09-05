@@ -14,15 +14,15 @@
 
 </head>
 <body>
-  <header>
+  <header id="home" class="scrollspy">
     <!-- mobile navigation -->
     <ul id="nav-mobile" class="side-nav" style="overflow: auto; left: 0px;">
       <a id="logo-container" class="light-blue-text brand-logo center">Logo</a>
       <div class="divider"></div>
-      <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
-      <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
-      <li><a class="waves-effect light-blue-text" href="#nav_contact">Kontakt</a></li>
-      <li><a class="waves-effect light-blue-text" href="#nav_map">Mapa</a></li>
+        <li><a class="waves-effect light-blue-text" href="#home">Home</a></li>
+        <li><a class="waves-effect light-blue-text" href="#nav_info">Info</a></li>
+        <li><a class="waves-effect light-blue-text" href="#nav_contact">Kontakt</a></li>
+        <li><a class="waves-effect light-blue-text" href="#nav_map">Mapa</a></li>
     </ul>
     <!-- desktop navigation -->
     <div class="navbar-fixed">
@@ -30,8 +30,8 @@
           <div class="nav-wrapper container">
             <a id="logo-container" href="#" class="light-blue-text brand-logo">Logo</a>
             <ul class="right hide-on-med-and-down">
-              <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
-              <li><a class="waves-effect light-blue-text" href="#">Navbar Link</a></li>
+              <li><a class="waves-effect light-blue-text" href="#home">Home</a></li>
+              <li><a class="waves-effect light-blue-text" href="#nav_info">Info</a></li>
               <li><a class="waves-effect light-blue-text" href="#nav_contact">Kontakt</a></li>
               <li><a class="waves-effect light-blue-text" href="#nav_map">Mapa</a></li>
             </ul>
@@ -44,7 +44,7 @@
   <main>
     <div class="picture1"></div>
 
-    <div class="container">
+    <div id="nav_info" class="container scrollspy">
       <!-- first info -->
       <div class="section">
         <div class="card white margin-card">
@@ -84,7 +84,7 @@
         </div>
       </div>
       <!-- contact -->
-      <div class="section" id="nav_contact">
+      <div class="section scrollspy" id="nav_contact">
         <div class="contact">
           <h5 class="center">Kontakt</h5>
           <h6>zapraszam na konsultacje</h6>
@@ -154,7 +154,7 @@
   </main>
 
   <footer>
-    <div class="map" id="nav_map"></div>
+    <div class="map scrollspy" id="nav_map"></div>
   </footer>
 
 
